@@ -14,23 +14,23 @@ Clone da interface do Discord utilizando ReactJS com Typescript.
 
 ## Instruções
 
-### with npm
+### com npm
 
 ```sh
 npm install
 ```
-and
+e
 
 ```sh
 npm start
 ```
 
-### with yarn
+### com yarn
 
 ```sh
 yarn
 ```
-and
+e
 
 ```sh
 yarn start
