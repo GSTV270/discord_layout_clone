@@ -13,7 +13,7 @@ const ChannelData: React.FC = () => {
     if (div) {
       div.scrollTop = div.scrollHeight;
     }
-  }, []);
+  }, [messagesRef]);
 
   return (
     <Container>
@@ -87,11 +87,11 @@ const ChannelData: React.FC = () => {
         <ChannelMessage
           hasMention
           author="Gustavo Agibert"
-          content={
+          content={(
             <>
-              <Mention>@Gustavo Agibert</Mention> Olá mundo!
+              <Mention>@Gustavo Agibert</Mention> Olá!
             </>
-          }
+          )}
           date="27/02/2020"
         />
       </Messages>
